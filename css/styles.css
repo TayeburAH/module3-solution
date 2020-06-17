@@ -1,0 +1,50 @@
+body{
+	font-family:font-family: 'Oxygen', sans-serif;
+	font-weight:400;
+	
+}
+
+
+.navbar-brand img{
+	width:120px;
+	height:120px;
+	
+}
+.nav-item a{
+	
+	text-align:center;
+	
+}
+
+
+
+
+#content:hover{
+	opacity:0.5;
+	
+}
+
+@media (max-width: 767px){
+	
+.nav li:nth-child(odd){
+	
+	background-color:black;
+
+	
+    
+}
+
+.nav li:nth-child(even){
+	
+	background-color:gray;
+;
+	
+}
+.nav li:hover{
+	color:black;
+	background-color:white;
+}
+
+}
+
+
